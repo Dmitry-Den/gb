@@ -10,5 +10,4 @@ Console.WriteLine("Введите координаты x2, y2 и z2: ");
 int x2 = int.Parse(Console.ReadLine()!), y2 = int.Parse(Console.ReadLine()!), z2 = int.Parse(Console.ReadLine()!);
 
 double res = Math.Round(Math.Sqrt(Math.Pow(x1-x2, 2) + Math.Pow(y1-y2, 2) + Math.Pow(z1-z2, 2)), 2);
-
 Console.WriteLine($"Расстояние между точками: {res}");
